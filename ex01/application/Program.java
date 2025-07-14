@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import db.DB;
+import db.DB03;
 
 public class Program {
 
@@ -15,7 +15,7 @@ public class Program {
 		Statement st = null;
 		ResultSet rs = null;
 		try {
-			conn = DB.getConnection();
+			conn = DB03.getConnection();
 
 			st = conn.createStatement();
 
@@ -27,9 +27,9 @@ public class Program {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
-			DB.closeResultSet(rs);
-			DB.closeStatement(st);
-			DB.closeConnection();
+			DB03.closeResultSet(rs);
+			DB03.closeStatement(st);
+			DB03.closeConnection();
 		}
 	}
 }
