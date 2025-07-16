@@ -8,6 +8,8 @@
 	<classpathentry kind="src" path="ex01"/>
 	<classpathentry kind="src" path="ex02Insert"/>
 	<classpathentry kind="src" path="ex03Update"/>
+	<classpathentry kind="src" path="ex04Delete"/>
+	<classpathentry kind="src" path="ex05Transactions"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MySQLConnector">
 		<attributes>
 			<attribute name="module" value="true"/>
